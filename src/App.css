@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+.nav-controls {
+  margin-top: 12px;
+}
+
+.nav-controls > button + button {
+  margin-left: 8px;
+}
+
+/* Make text inputs wide enough to fit long placeholder text, but responsive */
+input {
+  width: min(100%, 140ch);
+  box-sizing: border-box;
+}
+
+select {
+  width: min(100%, 140ch);
+  box-sizing: border-box;
+}
